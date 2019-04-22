@@ -1,0 +1,42 @@
+void add()
+{
+    int a,b;
+    printf("Enter two Numbers : ");
+    scanf("%d%d",&a,&b);
+    printf("Sum of %d and %d is %d ",a,b,a+b);
+}
+
+void sub()
+{
+    int a,b;
+    printf("Enter two Numbers : ");
+    scanf("%d%d",&a,&b);
+    printf("Subtraction of %d and %d is %d ",a,b,a-b);
+}
+
+void multi()
+{
+    int a,b;
+    printf("Enter two Numbers : ");
+    scanf("%d%d",&a,&b);
+    printf("Multiply of %d and %d is %d ",a,b,a*b);
+}
+
+void div()
+{
+    int a,b;
+    printf("Enter two Numbers : ");
+    scanf("%d%d",&a,&b);
+    printf("Division of %d and %d is %d ",a,b,a/b);
+}
+
+void main()
+{
+
+clrscr();
+add();
+sub();
+multi();
+div();
+getch();
+}
